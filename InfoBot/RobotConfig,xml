@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+
+<Data>
+
+	<PathFile>
+		<Name>PathFolderDownload</Name>
+		<Value>C:\InfoBot\Data\Temp\Download\</Value>
+	</PathFile>
+
+	<PathFile>
+		<Name>PathFileMacro</Name>
+		<Value>C:\InfoBot\Core\Macro_BotGestiondeProyectos.xlsm</Value>
+	</PathFile>
+
+	<PathFile>
+		<Name>PathFileAccess</Name>
+		<Value>C:\InfoBot\Insumos\DB_GestiondeProyectosDeGrado.accdb</Value>
+	</PathFile>
+
+	<Parametro>
+		<Name>CodigoPrograma</Name>
+		<Value>11002</Value>
+   	</Parametro>
+
+	<Parametro>
+		<Name>CodigoConsultadeEstudiantes</Name>
+		<Value>matf88</Value>
+   	</Parametro>
+
+	<Parametro>
+		<Name>NombreAsignatura</Name>
+		<Value>PROYECTO DE GRADO</Value>
+   	</Parametro>
+
+	<Parametro>
+		<Name>NombreCredenciales</Name>
+		<Value>SA_GESTIONDEPROYECTO</Value>
+   	</Parametro>
+
+	<Parametro>
+		<Name>ConnectionAccess</Name>
+		<Value>Provider=Microsoft.ACE.OLEDB.12.0;Data Source={PathFile}</Value>
+   	</Parametro>
+
+	<SQL>
+		<Name>SQLReturnData</Name>
+		<Value>SELECT [ID],[Título],[Estudiante 1],[Estudiante 2],[Jurado 1],[Jurado 2],[Estado solicitud],[Director],[Correo Director],[Co-Director 1],[Co-Director 2] FROM [Gestion de Proyecto de Grado] WHERE NOT [Estado solicitud] = 'Aprobado'</Value>
+   	</SQL>
+	
+	<EmailConfig>
+		<Name>CorreoNotificacion</Name>
+		<To>estebanmurcia@usantotomas.edu.co</To>
+		<Subject> {Mensaje} {Hora}</Subject>
+		<Body>C:\InfoBot\Data\Permanet\Email\PlantillaEmail_Default.docx</Body>
+   	</EmailConfig>
+
+</Data>
+
