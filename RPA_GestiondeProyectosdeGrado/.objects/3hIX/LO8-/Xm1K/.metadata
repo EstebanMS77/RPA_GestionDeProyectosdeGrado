@@ -1,0 +1,15 @@
+﻿{
+  "Id": "Xm1K54F1iEysFwx74qlxLQ",
+  "Reference": "9wkVO8yiK0-XuxLQvWc_NA/Xm1K54F1iEysFwx74qlxLQ",
+  "ParentRef": "9wkVO8yiK0-XuxLQvWc_NA/LO8-ppLLS0KaGCJ39ACtcA",
+  "Name": "Wp_SistemaAcademico",
+  "Type": "Screen",
+  "Created": "2023-03-15T01:34:37.8872648Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-15T02:47:58.4509359Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

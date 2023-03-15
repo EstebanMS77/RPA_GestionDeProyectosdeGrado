@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bZ-XM40guESnhjYfbaLfFw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="http://oas.usta.edu.co:8080/sgacampus/" DesignTimeRectangle="1185, 602, 176, 30" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FriendlyName="'INPUT isc_42'" FullSelectorArgument="&lt;webctrl id='isc_34' tableRow='1' tag='TABLE' /&gt;&lt;webctrl id='isc_42' tableRow='5' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='isc_34' tag='TABLE' /&gt;&lt;webctrl id='isc_42' type='PASSWORD' tag='INPUT' class='textItem' aaname='Clave' /&gt;" Guid="76fd26f3-fd5e-42be-807c-72f1dcc90549" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAALQAAAAiCAYAAAD28vNsAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFRSURBVHhe7dwxqoNAFEbht/9NaScuQbBxB2IRO+dxAglGx7TxXs6Bv4vdx2BC9G9d11Lb4+HcfVczyy5BOxdxVdDzPJdhGErf96Vt29I0jXM/HxYxiU2M1uyeQE/T9LxwHMeyLEvZtq2Y3SEsYhKbGMXq0e8HaD7Qdd3zIrM7h1GsHlG/QXOEo17MFiWsYnZ/+/EGzX0JR7lZpDCL3RNobrY9nS1amMXuCTRHt18ALVqYxe4JND+LmEUMu4K2NAnaUiVoS5WgLVWCtlQJ2lIlaEuVoC1VgrZUCdpSJWhLlaAtVYK2VAnaUiVoS1UVtH/wt4hd/sHfR7AsYpePYPmQrEXs8iFZX2Ng0cIqZquvMWC+aMaihNGvL5p5jQ+gnqOci/yiaHcJi5jEJkaPmNkJNOMI576Em20u5GcR5349LGISm/vbjP2qoJ2LOkG7RFvLP7e5x2wBkXKYAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sistema Académico' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1143, 610, 31, 14" ElementType="Text" FriendlyName="'Clave'" FullSelectorArgument="&lt;webctrl id='isc_34' tableRow='1' tag='TABLE' /&gt;&lt;webctrl tableRow='5' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl id='isc_34' tag='TABLE' /&gt;&lt;webctrl type='' tag='LABEL' class='' aaname='Clave' check:innerText='Clave' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACMAAAASCAYAAADR/2dRAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAtSURBVEhL7c4hAQAADMOw+zc8uCsoHygIzyXpCjPEDDFDzBAzxAwxQ8yQoUz62mKToMjiG+IAAAAASUVORK5CYII=" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

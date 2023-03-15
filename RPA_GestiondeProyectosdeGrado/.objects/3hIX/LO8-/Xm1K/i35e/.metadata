@@ -1,0 +1,13 @@
+﻿{
+  "Id": "i35ewgCKPkO1e4Tnu28Vxw",
+  "Reference": "9wkVO8yiK0-XuxLQvWc_NA/i35ewgCKPkO1e4Tnu28Vxw",
+  "ParentRef": "9wkVO8yiK0-XuxLQvWc_NA/Xm1K54F1iEysFwx74qlxLQ",
+  "Name": "Button_Entrar",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2023-03-15T02:06:26.9123777Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-15T02:06:26.9123777Z"
+}

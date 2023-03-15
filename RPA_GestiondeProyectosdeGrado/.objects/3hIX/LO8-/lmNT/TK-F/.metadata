@@ -1,0 +1,16 @@
+﻿{
+  "Id": "TK-FfVu_bkCvsTkDykItiw",
+  "Reference": "9wkVO8yiK0-XuxLQvWc_NA/TK-FfVu_bkCvsTkDykItiw",
+  "ParentRef": "9wkVO8yiK0-XuxLQvWc_NA/lmNTwrPr4kyKpxHvM9vjRA",
+  "Name": "Text_CodigoPeriodoEstudiante",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Created": "2023-03-15T02:32:06.017223Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-15T02:36:00.8276825Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

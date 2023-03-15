@@ -69,35 +69,11 @@
     "TypeFullyQualifiedName": "System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
     "UnresolvedTypeFullyQualifiedName": null,
     "Expression": "False",
-    "IsLiteral": true
+    "IsLiteral": false
   },
   {
     "Constant": false,
     "Name": "Str_Error",
-    "TypeFullyQualifiedName": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
-    "UnresolvedTypeFullyQualifiedName": null,
-    "Expression": null,
-    "IsLiteral": false
-  },
-  {
-    "Constant": false,
-    "Name": "Str_ToCorreoNotificacion",
-    "TypeFullyQualifiedName": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
-    "UnresolvedTypeFullyQualifiedName": null,
-    "Expression": null,
-    "IsLiteral": false
-  },
-  {
-    "Constant": false,
-    "Name": "Str_SubjectCorreoNotificacion",
-    "TypeFullyQualifiedName": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
-    "UnresolvedTypeFullyQualifiedName": null,
-    "Expression": null,
-    "IsLiteral": false
-  },
-  {
-    "Constant": false,
-    "Name": "Str_BodyCorreoNotificacion",
     "TypeFullyQualifiedName": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
     "UnresolvedTypeFullyQualifiedName": null,
     "Expression": null,
@@ -171,6 +147,22 @@
     "Constant": false,
     "Name": "Int_InternalError",
     "TypeFullyQualifiedName": "System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+    "UnresolvedTypeFullyQualifiedName": null,
+    "Expression": null,
+    "IsLiteral": false
+  },
+  {
+    "Constant": false,
+    "Name": "Str_PathFileEmailDefault",
+    "TypeFullyQualifiedName": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+    "UnresolvedTypeFullyQualifiedName": null,
+    "Expression": null,
+    "IsLiteral": false
+  },
+  {
+    "Constant": false,
+    "Name": "Str_PathFolderTemp",
+    "TypeFullyQualifiedName": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
     "UnresolvedTypeFullyQualifiedName": null,
     "Expression": null,
     "IsLiteral": false
