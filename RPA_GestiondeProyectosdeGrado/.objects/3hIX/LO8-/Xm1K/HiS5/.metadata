@@ -1,0 +1,13 @@
+﻿{
+  "Id": "HiS5WTR_sEuwi8UpRsxUTA",
+  "Reference": "9wkVO8yiK0-XuxLQvWc_NA/HiS5WTR_sEuwi8UpRsxUTA",
+  "ParentRef": "9wkVO8yiK0-XuxLQvWc_NA/Xm1K54F1iEysFwx74qlxLQ",
+  "Name": "Text_SeccionalEstudiante",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Created": "2023-03-16T03:17:53.3181903Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-16T03:17:53.3181903Z"
+}

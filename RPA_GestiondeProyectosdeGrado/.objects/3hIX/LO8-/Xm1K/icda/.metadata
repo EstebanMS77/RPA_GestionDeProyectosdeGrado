@@ -1,0 +1,13 @@
+﻿{
+  "Id": "icdauSt2qkO_MbI0i4eEQA",
+  "Reference": "9wkVO8yiK0-XuxLQvWc_NA/icdauSt2qkO_MbI0i4eEQA",
+  "ParentRef": "9wkVO8yiK0-XuxLQvWc_NA/Xm1K54F1iEysFwx74qlxLQ",
+  "Name": "Input_NombreEstudiante",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2023-03-16T03:17:49.9698905Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-16T03:17:49.9698905Z"
+}

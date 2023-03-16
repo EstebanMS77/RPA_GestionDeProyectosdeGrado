@@ -1,0 +1,13 @@
+﻿{
+  "Id": "-KmCKMzSnEyiyyjujLP94w",
+  "Reference": "9wkVO8yiK0-XuxLQvWc_NA/-KmCKMzSnEyiyyjujLP94w",
+  "ParentRef": "9wkVO8yiK0-XuxLQvWc_NA/Xm1K54F1iEysFwx74qlxLQ",
+  "Name": "Button_BuscarEstudiante",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2023-03-16T03:17:26.5017142Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-16T03:17:26.5017142Z"
+}

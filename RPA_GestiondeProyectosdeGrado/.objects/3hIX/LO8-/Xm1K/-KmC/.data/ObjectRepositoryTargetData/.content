@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ZeCHFIzQeE-F7gJKDEFbTw" Reference="9wkVO8yiK0-XuxLQvWc_NA/-KmCKMzSnEyiyyjujLP94w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="http://oas.usta.edu.co:8080/sgacampus/#matf88" DesignTimeRectangle="1429, 202, 16, 16" DesignTimeScaleFactor="1" ElementType="Icon" FriendlyName="'IMG'" FullSelectorArgument="&lt;webctrl parentid='isc_RH' tableRow='1' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='isc_RH' tag='TABLE' /&gt;&lt;webctrl type='' tag='IMG' class='' aaname='' /&gt;" Guid="83b63e51-b1f3-4517-a00a-dbc75389f202" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFdSURBVDhPvZNBToNAGIU5he40XsGlega5hu64SFf1AJq40KR1Y3RjExbGuhZh0Z1YlCrYWO1C2rTPeUOKFOiIQX3JSwvz82Xm/99oEDJNE77vVzb1P0DrZQSjHWLj7AHasSt/+WyF0Vxd1oXAmjXASrOLg847nP4IwzFg9yP5vNb05HoaknYOWLt5xfZFD88fE7mYFd/rrSdZl4XRVALkMbmzRbCZQrG+euKJ+vzxqQRoXIfyWGW033mTPVUCt0TjbdGzMmId65VATpMDKCPWaUeuGrh5/viDHUZYP/XUQPaQvSkj9nr3MlADOWXm7PspT7Hc6MqMKoF8wXzpIof8qEiMDNf1Vi8Ho6k5IE3o7KbYImvD8TS5KdwZg68d3mHPzt+YQiDN0BrtQEaD0+QAdq4Cccw4zIQVQRcCyziB3n5dw0pAOoa6qDsxtDKQrjsDLDXu5f9fAab9B0DgEx1etsqCfRYkAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sistema Académico' /&gt;" SearchSteps="FuzzySelector, Image" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1451, 202, 87, 16" ElementType="Text" FriendlyName="'Untitled Button'" FullSelectorArgument="&lt;webctrl parentid='isc_RH' tableRow='1' tag='TABLE' /&gt;&lt;webctrl isleaf='1' tableRow='1' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='isc_RH' tag='TABLE' /&gt;&lt;webctrl isleaf='1' type='' tag='TD' class='normal' aaname='Untitled Button' check:innerText='Untitled Button' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFsAAAAUCAYAAADiOEEgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABASURBVFhH7dAxAQAADMOg+TfdueAKEriFKRsqGyobKhsqGyobKhsqGyobKhsqGyobKhsqGyobKhsqGyobKpvZHjMdVTXivV7KAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8bce84563918cbc1bececb74509487ec.png" xmlns="">0YarGOUGRPk-6jbM-M4NySg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
