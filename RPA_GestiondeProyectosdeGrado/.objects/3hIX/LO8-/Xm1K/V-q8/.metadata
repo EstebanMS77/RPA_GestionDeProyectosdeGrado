@@ -1,0 +1,13 @@
+﻿{
+  "Id": "V-q8hlx8Z0GEYFojKzFWZw",
+  "Reference": "9wkVO8yiK0-XuxLQvWc_NA/V-q8hlx8Z0GEYFojKzFWZw",
+  "ParentRef": "9wkVO8yiK0-XuxLQvWc_NA/Xm1K54F1iEysFwx74qlxLQ",
+  "Name": "Text_NoHayInformacionparamostrar_Asignatura",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Created": "2023-03-18T02:13:54.4333072Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-18T02:13:54.4333072Z"
+}

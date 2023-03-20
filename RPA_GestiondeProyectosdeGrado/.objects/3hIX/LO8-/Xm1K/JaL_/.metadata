@@ -1,0 +1,16 @@
+﻿{
+  "Id": "JaL_s3Dv80qNT2jZrwToSQ",
+  "Reference": "9wkVO8yiK0-XuxLQvWc_NA/JaL_s3Dv80qNT2jZrwToSQ",
+  "ParentRef": "9wkVO8yiK0-XuxLQvWc_NA/Xm1K54F1iEysFwx74qlxLQ",
+  "Name": "Button_CodigoVaciaV2",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2023-03-18T17:18:19.6412726Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-18T17:19:03.3862928Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -17,6 +17,22 @@
 		<Value>C:\InfoBot\Insumos\DB_GestiondeProyectosDeGrado.accdb</Value>
 	</PathFile>
 
+	<PathFile>
+		<Name>PathFileEmailDefault</Name>
+		<Value>C:\InfoBot\Data\Permanet\Email\PlantillaEmail_Default.docx</Value>
+	</PathFile>
+
+
+	<PathFile>
+		<Name>PathFileActaDefault</Name>
+		<Value>C:\InfoBot\Insumos\Acta 2022-09_02_Plantilla.docx</Value>
+	</PathFile>
+
+	<PathFile>
+		<Name>PathFolderTemp</Name>
+		<Value>C:\InfoBot\Data\Temp\</Value>
+	</PathFile>
+
 	<Parametro>
 		<Name>CodigoPrograma</Name>
 		<Value>11002</Value>
@@ -28,8 +44,18 @@
    	</Parametro>
 
 	<Parametro>
-		<Name>NombreAsignatura</Name>
-		<Value>PROYECTO DE GRADO</Value>
+		<Name>CodigoProyectoDeGradoI</Name>
+		<Value>12815</Value>
+   	</Parametro>
+
+	<Parametro>
+		<Name>CodigoProyectoDeGradoII</Name>
+		<Value>12923</Value>
+   	</Parametro>
+
+	<Parametro>
+		<Name>FechadeCorteSemestres</Name>
+		<Value>01/08/2023</Value>
    	</Parametro>
 
 	<Parametro>
@@ -50,8 +76,8 @@
 	<EmailConfig>
 		<Name>CorreoNotificacion</Name>
 		<To>estebanmurcia@usantotomas.edu.co</To>
-		<Subject> {Mensaje} {Hora}</Subject>
-		<Body>C:\InfoBot\Data\Permanet\Email\PlantillaEmail_Default.docx</Body>
+		<Subject>BOT Gestion de Proyectos de Grado | Inicio su ejecución</Subject>
+		<Body>Se informa que el bot Inicio su ejecucion a las {Hora}</Body>
    	</EmailConfig>
 
 </Data>
