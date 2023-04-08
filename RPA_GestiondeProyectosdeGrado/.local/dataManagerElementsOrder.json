@@ -39,6 +39,7 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "Str_DateFormat&Sequence_142",
         "Str_PathFileTempActaDefault&Sequence_154",
         "Tb_Data&Sequence_154",
         "Str_Password&Sequence_154",

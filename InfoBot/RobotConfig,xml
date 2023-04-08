@@ -3,11 +3,6 @@
 <Data>
 
 	<PathFile>
-		<Name>PathFolderDownload</Name>
-		<Value>C:\InfoBot\Data\Temp\Download\</Value>
-	</PathFile>
-
-	<PathFile>
 		<Name>PathFileMacro</Name>
 		<Value>C:\InfoBot\Core\Macro_BotGestiondeProyectos.xlsm</Value>
 	</PathFile>
@@ -25,7 +20,7 @@
 
 	<PathFile>
 		<Name>PathFileActaDefault</Name>
-		<Value>C:\InfoBot\Insumos\Acta 2022-09_02_Plantilla.docx</Value>
+		<Value>C:\InfoBot\Insumos\Acta YYYYMMDD.docx</Value>
 	</PathFile>
 
 	<PathFile>
@@ -33,9 +28,25 @@
 		<Value>C:\InfoBot\Data\Temp\</Value>
 	</PathFile>
 
+	<PathFile>
+		<Name>PathFolderConsolidado</Name>
+		<Value>C:\Users\User\OneDrive - Universidad Santo Tomás\Consolidado_ActaGestionDeProyectosDeGrado\</Value>
+	</PathFile>
+
+
+	<PathFile>
+		<Name>PathFileEmailAsisgnacionJurados</Name>
+		<Value>C:\Users\User\OneDrive - Universidad Santo Tomás\Consolidado_ActaGestionDeProyectosDeGrado\PlantillaEmail\PlantillaEmail_AsignacionJurados.docx</Value>
+	</PathFile>
+
 	<Parametro>
 		<Name>CodigoPrograma</Name>
 		<Value>11002</Value>
+   	</Parametro>
+
+	<Parametro>
+		<Name>MensajeSolicitud</Name>
+		<Value>él director adjuntando documento final y reporte de Turnitin del {Turnitin}%</Value>
    	</Parametro>
 
 	<Parametro>
@@ -70,7 +81,12 @@
 
 	<SQL>
 		<Name>SQLReturnData</Name>
-		<Value>SELECT [ID],[Título],[Estudiante 1],[Estudiante 2],[Jurado 1],[Jurado 2],[Estado solicitud],[Director],[Correo Director],[Co-Director 1],[Co-Director 2] FROM [Gestion de Proyecto de Grado] WHERE NOT [Estado solicitud] = 'Aprobado'</Value>
+		<Value>SELECT [ID],[Tipo de Solicitud],[Nombre Proyecto],[Estudiante 1],[Estudiante 2],[Jurado 1],[Jurado 2],[Estado solicitud],[Director],[Correo Director],[Co-Director 1],[Co-Director 2],[Co-Director 3],[Porcentaje Turnitin] FROM [GESTIÓN DE PROYECTOS DE GRADO] WHERE NOT [Estado solicitud] = 'Rechazado'</Value>
+   	</SQL>
+
+	<SQL>
+		<Name>SQLUpdateEstadoSolicitud</Name>
+		<Value>UPDATE [GESTIÓN DE PROYECTOS DE GRADO] SET [GESTIÓN DE PROYECTOS DE GRADO].[Estado solicitud] = '{NuevoEstado}' WHERE [GESTIÓN DE PROYECTOS DE GRADO].[ID] = {ID}</Value>
    	</SQL>
 	
 	<EmailConfig>
