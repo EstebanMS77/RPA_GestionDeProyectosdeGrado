@@ -214,5 +214,29 @@
     "UnresolvedTypeFullyQualifiedName": null,
     "Expression": null,
     "IsLiteral": false
+  },
+  {
+    "Constant": false,
+    "Name": "Str_PathFileEmailAsisgnacionRevisores",
+    "TypeFullyQualifiedName": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+    "UnresolvedTypeFullyQualifiedName": null,
+    "Expression": null,
+    "IsLiteral": false
+  },
+  {
+    "Constant": false,
+    "Name": "Int_CountInternalError",
+    "TypeFullyQualifiedName": "System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+    "UnresolvedTypeFullyQualifiedName": null,
+    "Expression": null,
+    "IsLiteral": false
+  },
+  {
+    "Constant": false,
+    "Name": "Boolean_EndProcess",
+    "TypeFullyQualifiedName": "System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+    "UnresolvedTypeFullyQualifiedName": null,
+    "Expression": null,
+    "IsLiteral": false
   }
 ]
