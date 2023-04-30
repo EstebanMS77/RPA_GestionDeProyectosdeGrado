@@ -1,0 +1,13 @@
+﻿{
+  "Id": "z6VB2RYG0U6eRjzsM4xRYw",
+  "Reference": "9wkVO8yiK0-XuxLQvWc_NA/z6VB2RYG0U6eRjzsM4xRYw",
+  "ParentRef": "9wkVO8yiK0-XuxLQvWc_NA/Xm1K54F1iEysFwx74qlxLQ",
+  "Name": "Tab_Datos Personales",
+  "Type": "Element",
+  "TaxonomyType": "Tab",
+  "Created": "2023-04-23T02:18:38.0880346Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-04-23T02:18:38.0880346Z"
+}

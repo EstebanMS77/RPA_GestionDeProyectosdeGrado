@@ -1691,143 +1691,6 @@
           }
         }
       },
-      "Nito.AsyncEx/5.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Nito.AsyncEx.Context": "5.1.0",
-          "Nito.AsyncEx.Coordination": "5.1.0",
-          "Nito.AsyncEx.Interop.WaitHandles": "5.1.0",
-          "Nito.AsyncEx.Oop": "5.1.0",
-          "Nito.AsyncEx.Tasks": "5.1.0",
-          "Nito.Cancellation": "1.1.0"
-        }
-      },
-      "Nito.AsyncEx.Context/5.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Nito.AsyncEx.Tasks": "5.1.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Nito.AsyncEx.Context.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Nito.AsyncEx.Coordination/5.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Nito.AsyncEx.Tasks": "5.1.0",
-          "Nito.Collections.Deque": "1.1.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Nito.AsyncEx.Coordination.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Nito.AsyncEx.Interop.WaitHandles/5.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Nito.AsyncEx.Tasks": "5.1.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Nito.AsyncEx.Interop.WaitHandles.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Nito.AsyncEx.Oop/5.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Nito.AsyncEx.Coordination": "5.1.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Nito.AsyncEx.Oop.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Nito.AsyncEx.Tasks/5.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Nito.Disposables": "2.2.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Nito.AsyncEx.Tasks.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Nito.Cancellation/1.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Nito.Disposables": "2.2.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Nito.Cancellation.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Nito.Collections.Deque/1.1.0": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Nito.Collections.Deque.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Nito.Disposables/2.2.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Collections.Immutable": "1.4.0"
-        },
-        "compile": {
-          "lib/netstandard2.1/_._": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.1/Nito.Disposables.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "NJsonSchema/10.2.2": {
         "type": "package",
         "dependencies": {
@@ -4417,14 +4280,12 @@
           "lib/net5.0-windows7.0/UiPath.Activities.RuntimeGovernance.dll": {}
         }
       },
-      "UiPath.ConnectionClient/1.4.2-20221020.8": {
+      "UiPath.ConnectionClient/1.4.3-20221214.2": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "11.0.2",
-          "Nito.AsyncEx": "5.1.0",
           "System.Net.Http": "4.3.4",
-          "System.Runtime.Caching": "5.0.0",
-          "UiPath.Telemetry.Client": "1.5.3"
+          "System.Runtime.Caching": "5.0.0"
         },
         "compile": {
           "lib/net5.0/_._": {}
@@ -4638,7 +4499,7 @@
           "lib/net6.0/UiPath.DocumentUnderstanding.Digitizer.dll": {}
         }
       },
-      "UiPath.Excel.Activities/2.20.0-preview": {
+      "UiPath.Excel.Activities/2.20.1": {
         "type": "package",
         "dependencies": {
           "ClosedXML": "0.95.4",
@@ -4648,7 +4509,7 @@
           "NPOI": "2.5.5",
           "SharpZipLib": "1.3.3",
           "System.Text.Encoding.CodePages": "4.5.1",
-          "UiPath.Platform": "22.4.0",
+          "UiPath.Platform": "23.4.1",
           "UiPath.Telemetry.Client": "1.5.3"
         },
         "compile": {
@@ -4783,7 +4644,7 @@
           "lib/net6.0-windows7.0/UiPath.ImageProcessingInterop.dll": {}
         }
       },
-      "UiPath.Mail.Activities/1.18.2": {
+      "UiPath.Mail.Activities/1.19.0": {
         "type": "package",
         "dependencies": {
           "Google.Apis.Calendar.v3": "1.55.0.2554",
@@ -4794,6 +4655,7 @@
           "Microsoft.Extensions.FileSystemGlobbing": "5.0.0",
           "Microsoft.Graph": "4.11.0",
           "Newtonsoft.Json": "13.0.1",
+          "System.ComponentModel.Annotations": "5.0.0",
           "System.Configuration.ConfigurationManager": "5.0.0",
           "System.Data.DataSetExtensions": "4.6.0-preview3.19128.7",
           "System.IdentityModel.Tokens.Jwt": "6.12.2",
@@ -4801,8 +4663,8 @@
           "System.Security.Cryptography.ProtectedData": "5.0.0",
           "System.ValueTuple": "4.5.0",
           "UiPath.Activities.RuntimeGovernance": "1.1.6",
-          "UiPath.ConnectionClient": "1.4.1",
-          "UiPath.Platform": "22.4.0",
+          "UiPath.ConnectionClient": "1.4.3-20221214.2",
+          "UiPath.Platform": "23.4.1",
           "UiPath.Telemetry.Client": "1.5.3"
         },
         "compile": {
@@ -5403,7 +5265,7 @@
           }
         }
       },
-      "UiPath.System.Activities/23.4.1-preview": {
+      "UiPath.System.Activities/23.4.2": {
         "type": "package",
         "dependencies": {
           "CsvHelper": "16.0.0",
@@ -5418,8 +5280,8 @@
           "SharpZipLib": "1.3.3",
           "System.Activities.ViewModels": "1.0.0-20230306.1",
           "System.Management.Automation": "7.1.0",
-          "UiPath.Platform": "23.4.0-beta.3692006",
-          "UiPath.System.Runtime.Windows": "23.4.1-preview",
+          "UiPath.Platform": "23.4.1",
+          "UiPath.System.Runtime.Windows": "23.4.2",
           "UiPath.Telemetry.Client": "1.5.3"
         },
         "compile": {
@@ -5471,7 +5333,7 @@
           }
         }
       },
-      "UiPath.System.Runtime.Windows/23.4.1-preview": {
+      "UiPath.System.Runtime.Windows/23.4.2": {
         "type": "package",
         "dependencies": {
           "CsvHelper": "16.0.0",
@@ -5486,7 +5348,7 @@
           "Microsoft.VisualBasic": "10.3.0",
           "SharpZipLib": "1.3.3",
           "System.Management.Automation": "7.1.0",
-          "UiPath.Platform": "23.4.0-beta.3692006",
+          "UiPath.Platform": "23.4.1",
           "UiPath.Telemetry.Client": "1.5.3"
         },
         "compile": {
@@ -5552,10 +5414,10 @@
           "lib/netstandard2.0/TelemetryClient.dll": {}
         }
       },
-      "UiPath.UIAutomation.Activities/23.4.3": {
+      "UiPath.UIAutomation.Activities/23.4.5-beta.3758343": {
         "type": "package",
         "dependencies": {
-          "UiPath.UIAutomation.Activities.Runtime": "[23.4.3]"
+          "UiPath.UIAutomation.Activities.Runtime": "[23.4.5-beta.3758343]"
         },
         "compile": {
           "lib/net6.0-windows7.0/_._": {}
@@ -5760,7 +5622,7 @@
           }
         }
       },
-      "UiPath.UIAutomation.Activities.Runtime/23.4.3": {
+      "UiPath.UIAutomation.Activities.Runtime/23.4.5-beta.3758343": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
@@ -5962,15 +5824,15 @@
           "lib/net6.0-windows7.0/UiPath.Vision.dll": {}
         }
       },
-      "UiPath.WebAPI.Activities/1.16.1-preview": {
+      "UiPath.WebAPI.Activities/1.16.2": {
         "type": "package",
         "dependencies": {
           "AvalonEdit": "6.0.1",
           "Microsoft.CSharp": "4.7.0",
           "Newtonsoft.Json": "13.0.1",
           "RestSharp": "106.15.0",
-          "UiPath.Platform": "22.10.2",
-          "UiPath.WebAPI.Runtime": "1.16.1-preview"
+          "UiPath.Platform": "23.4.1",
+          "UiPath.WebAPI.Runtime": "1.16.2"
         },
         "compile": {
           "lib/net5.0-windows7.0/_._": {}
@@ -6018,13 +5880,13 @@
           }
         }
       },
-      "UiPath.WebAPI.Runtime/1.16.1-preview": {
+      "UiPath.WebAPI.Runtime/1.16.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
           "Newtonsoft.Json": "13.0.1",
           "RestSharp": "106.15.0",
-          "UiPath.Platform": "22.10.2"
+          "UiPath.Platform": "23.4.1"
         },
         "compile": {
           "lib/net5.0-windows7.0/_._": {}
@@ -7768,143 +7630,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Nito.AsyncEx/5.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Nito.AsyncEx.Context": "5.1.0",
-          "Nito.AsyncEx.Coordination": "5.1.0",
-          "Nito.AsyncEx.Interop.WaitHandles": "5.1.0",
-          "Nito.AsyncEx.Oop": "5.1.0",
-          "Nito.AsyncEx.Tasks": "5.1.0",
-          "Nito.Cancellation": "1.1.0"
-        }
-      },
-      "Nito.AsyncEx.Context/5.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Nito.AsyncEx.Tasks": "5.1.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Nito.AsyncEx.Context.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Nito.AsyncEx.Coordination/5.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Nito.AsyncEx.Tasks": "5.1.0",
-          "Nito.Collections.Deque": "1.1.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Nito.AsyncEx.Coordination.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Nito.AsyncEx.Interop.WaitHandles/5.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Nito.AsyncEx.Tasks": "5.1.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Nito.AsyncEx.Interop.WaitHandles.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Nito.AsyncEx.Oop/5.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Nito.AsyncEx.Coordination": "5.1.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Nito.AsyncEx.Oop.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Nito.AsyncEx.Tasks/5.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Nito.Disposables": "2.2.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Nito.AsyncEx.Tasks.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Nito.Cancellation/1.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Nito.Disposables": "2.2.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Nito.Cancellation.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Nito.Collections.Deque/1.1.0": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Nito.Collections.Deque.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Nito.Disposables/2.2.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Collections.Immutable": "1.4.0"
-        },
-        "compile": {
-          "lib/netstandard2.1/_._": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.1/Nito.Disposables.dll": {
             "related": ".xml"
           }
         }
@@ -10516,14 +10241,12 @@
           "lib/net5.0-windows7.0/UiPath.Activities.RuntimeGovernance.dll": {}
         }
       },
-      "UiPath.ConnectionClient/1.4.2-20221020.8": {
+      "UiPath.ConnectionClient/1.4.3-20221214.2": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "11.0.2",
-          "Nito.AsyncEx": "5.1.0",
           "System.Net.Http": "4.3.4",
-          "System.Runtime.Caching": "5.0.0",
-          "UiPath.Telemetry.Client": "1.5.3"
+          "System.Runtime.Caching": "5.0.0"
         },
         "compile": {
           "lib/net5.0/_._": {}
@@ -10737,7 +10460,7 @@
           "lib/net6.0/UiPath.DocumentUnderstanding.Digitizer.dll": {}
         }
       },
-      "UiPath.Excel.Activities/2.20.0-preview": {
+      "UiPath.Excel.Activities/2.20.1": {
         "type": "package",
         "dependencies": {
           "ClosedXML": "0.95.4",
@@ -10747,7 +10470,7 @@
           "NPOI": "2.5.5",
           "SharpZipLib": "1.3.3",
           "System.Text.Encoding.CodePages": "4.5.1",
-          "UiPath.Platform": "22.4.0",
+          "UiPath.Platform": "23.4.1",
           "UiPath.Telemetry.Client": "1.5.3"
         },
         "compile": {
@@ -10882,7 +10605,7 @@
           "lib/net6.0-windows7.0/UiPath.ImageProcessingInterop.dll": {}
         }
       },
-      "UiPath.Mail.Activities/1.18.2": {
+      "UiPath.Mail.Activities/1.19.0": {
         "type": "package",
         "dependencies": {
           "Google.Apis.Calendar.v3": "1.55.0.2554",
@@ -10893,6 +10616,7 @@
           "Microsoft.Extensions.FileSystemGlobbing": "5.0.0",
           "Microsoft.Graph": "4.11.0",
           "Newtonsoft.Json": "13.0.1",
+          "System.ComponentModel.Annotations": "5.0.0",
           "System.Configuration.ConfigurationManager": "5.0.0",
           "System.Data.DataSetExtensions": "4.6.0-preview3.19128.7",
           "System.IdentityModel.Tokens.Jwt": "6.12.2",
@@ -10900,8 +10624,8 @@
           "System.Security.Cryptography.ProtectedData": "5.0.0",
           "System.ValueTuple": "4.5.0",
           "UiPath.Activities.RuntimeGovernance": "1.1.6",
-          "UiPath.ConnectionClient": "1.4.1",
-          "UiPath.Platform": "22.4.0",
+          "UiPath.ConnectionClient": "1.4.3-20221214.2",
+          "UiPath.Platform": "23.4.1",
           "UiPath.Telemetry.Client": "1.5.3"
         },
         "compile": {
@@ -11502,7 +11226,7 @@
           }
         }
       },
-      "UiPath.System.Activities/23.4.1-preview": {
+      "UiPath.System.Activities/23.4.2": {
         "type": "package",
         "dependencies": {
           "CsvHelper": "16.0.0",
@@ -11517,8 +11241,8 @@
           "SharpZipLib": "1.3.3",
           "System.Activities.ViewModels": "1.0.0-20230306.1",
           "System.Management.Automation": "7.1.0",
-          "UiPath.Platform": "23.4.0-beta.3692006",
-          "UiPath.System.Runtime.Windows": "23.4.1-preview",
+          "UiPath.Platform": "23.4.1",
+          "UiPath.System.Runtime.Windows": "23.4.2",
           "UiPath.Telemetry.Client": "1.5.3"
         },
         "compile": {
@@ -11570,7 +11294,7 @@
           }
         }
       },
-      "UiPath.System.Runtime.Windows/23.4.1-preview": {
+      "UiPath.System.Runtime.Windows/23.4.2": {
         "type": "package",
         "dependencies": {
           "CsvHelper": "16.0.0",
@@ -11585,7 +11309,7 @@
           "Microsoft.VisualBasic": "10.3.0",
           "SharpZipLib": "1.3.3",
           "System.Management.Automation": "7.1.0",
-          "UiPath.Platform": "23.4.0-beta.3692006",
+          "UiPath.Platform": "23.4.1",
           "UiPath.Telemetry.Client": "1.5.3"
         },
         "compile": {
@@ -11651,10 +11375,10 @@
           "lib/netstandard2.0/TelemetryClient.dll": {}
         }
       },
-      "UiPath.UIAutomation.Activities/23.4.3": {
+      "UiPath.UIAutomation.Activities/23.4.5-beta.3758343": {
         "type": "package",
         "dependencies": {
-          "UiPath.UIAutomation.Activities.Runtime": "[23.4.3]"
+          "UiPath.UIAutomation.Activities.Runtime": "[23.4.5-beta.3758343]"
         },
         "compile": {
           "lib/net6.0-windows7.0/_._": {}
@@ -11859,7 +11583,7 @@
           }
         }
       },
-      "UiPath.UIAutomation.Activities.Runtime/23.4.3": {
+      "UiPath.UIAutomation.Activities.Runtime/23.4.5-beta.3758343": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
@@ -12061,15 +11785,15 @@
           "lib/net6.0-windows7.0/UiPath.Vision.dll": {}
         }
       },
-      "UiPath.WebAPI.Activities/1.16.1-preview": {
+      "UiPath.WebAPI.Activities/1.16.2": {
         "type": "package",
         "dependencies": {
           "AvalonEdit": "6.0.1",
           "Microsoft.CSharp": "4.7.0",
           "Newtonsoft.Json": "13.0.1",
           "RestSharp": "106.15.0",
-          "UiPath.Platform": "22.10.2",
-          "UiPath.WebAPI.Runtime": "1.16.1-preview"
+          "UiPath.Platform": "23.4.1",
+          "UiPath.WebAPI.Runtime": "1.16.2"
         },
         "compile": {
           "lib/net5.0-windows7.0/_._": {}
@@ -12117,13 +11841,13 @@
           }
         }
       },
-      "UiPath.WebAPI.Runtime/1.16.1-preview": {
+      "UiPath.WebAPI.Runtime/1.16.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
           "Newtonsoft.Json": "13.0.1",
           "RestSharp": "106.15.0",
-          "UiPath.Platform": "22.10.2"
+          "UiPath.Platform": "23.4.1"
         },
         "compile": {
           "lib/net5.0-windows7.0/_._": {}
@@ -14788,150 +14512,6 @@
         "newtonsoft.json.13.0.1.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "packageIcon.png"
-      ]
-    },
-    "Nito.AsyncEx/5.1.0": {
-      "sha512": "KOahZdW0fRLnoym5lGtyWpFUZ94I5s0wLgYF5RHhK8RUhXpCiEX+185qjNvkse3H9WJV2/pFfPlKZHv8Eej7Hw==",
-      "type": "package",
-      "path": "nito.asyncex/5.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "icon.png",
-        "nito.asyncex.5.1.0.nupkg.sha512",
-        "nito.asyncex.nuspec"
-      ]
-    },
-    "Nito.AsyncEx.Context/5.1.0": {
-      "sha512": "EE7M37c5E/kvulzEkpUR6v1AnK34b2wysOLJHSjl78p/3hL7grte0XCPRqCfLZDwq98AD9GHMTCRfZy7TEeHhw==",
-      "type": "package",
-      "path": "nito.asyncex.context/5.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "icon.png",
-        "lib/netstandard1.3/Nito.AsyncEx.Context.dll",
-        "lib/netstandard1.3/Nito.AsyncEx.Context.xml",
-        "lib/netstandard2.0/Nito.AsyncEx.Context.dll",
-        "lib/netstandard2.0/Nito.AsyncEx.Context.xml",
-        "nito.asyncex.context.5.1.0.nupkg.sha512",
-        "nito.asyncex.context.nuspec"
-      ]
-    },
-    "Nito.AsyncEx.Coordination/5.1.0": {
-      "sha512": "Nv+oA+cSxidjOImiKcz2FJgMIDxiK0A6xormKmsUklUBjTNqQpjtdJsACMgTQG56PkTHdbMi5QijPTTUsmcCeg==",
-      "type": "package",
-      "path": "nito.asyncex.coordination/5.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "icon.png",
-        "lib/netstandard1.3/Nito.AsyncEx.Coordination.dll",
-        "lib/netstandard1.3/Nito.AsyncEx.Coordination.xml",
-        "lib/netstandard2.0/Nito.AsyncEx.Coordination.dll",
-        "lib/netstandard2.0/Nito.AsyncEx.Coordination.xml",
-        "nito.asyncex.coordination.5.1.0.nupkg.sha512",
-        "nito.asyncex.coordination.nuspec"
-      ]
-    },
-    "Nito.AsyncEx.Interop.WaitHandles/5.1.0": {
-      "sha512": "wFm3lrXXNPBtZHjLI21xhcADoh5CzO5KKNO38ybLO/CcL9zMUWWfsNiAFbw8JGp/wHoxhfdEUlThBnY3XaLR/w==",
-      "type": "package",
-      "path": "nito.asyncex.interop.waithandles/5.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "icon.png",
-        "lib/netstandard1.3/Nito.AsyncEx.Interop.WaitHandles.dll",
-        "lib/netstandard1.3/Nito.AsyncEx.Interop.WaitHandles.xml",
-        "lib/netstandard2.0/Nito.AsyncEx.Interop.WaitHandles.dll",
-        "lib/netstandard2.0/Nito.AsyncEx.Interop.WaitHandles.xml",
-        "nito.asyncex.interop.waithandles.5.1.0.nupkg.sha512",
-        "nito.asyncex.interop.waithandles.nuspec"
-      ]
-    },
-    "Nito.AsyncEx.Oop/5.1.0": {
-      "sha512": "J5DVgQrmE9qMNhK2eEMsuEw7V7cw7MIPrv3jqqQWolzDXkOxJFFYKUK+4dnC6UAEmum3xRVD2oBAoXg0vdYDDQ==",
-      "type": "package",
-      "path": "nito.asyncex.oop/5.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "icon.png",
-        "lib/netstandard1.3/Nito.AsyncEx.Oop.dll",
-        "lib/netstandard1.3/Nito.AsyncEx.Oop.xml",
-        "lib/netstandard2.0/Nito.AsyncEx.Oop.dll",
-        "lib/netstandard2.0/Nito.AsyncEx.Oop.xml",
-        "nito.asyncex.oop.5.1.0.nupkg.sha512",
-        "nito.asyncex.oop.nuspec"
-      ]
-    },
-    "Nito.AsyncEx.Tasks/5.1.0": {
-      "sha512": "tU3Ib4zs8ivM+uS8n7F7ReWZlA3mODyLqwPE+v+WJI94hZ8xLXl+a9npfj/IcmeXo9a6fGKLWkswKQHOeTWqwA==",
-      "type": "package",
-      "path": "nito.asyncex.tasks/5.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "icon.png",
-        "lib/netstandard1.3/Nito.AsyncEx.Tasks.dll",
-        "lib/netstandard1.3/Nito.AsyncEx.Tasks.xml",
-        "lib/netstandard2.0/Nito.AsyncEx.Tasks.dll",
-        "lib/netstandard2.0/Nito.AsyncEx.Tasks.xml",
-        "nito.asyncex.tasks.5.1.0.nupkg.sha512",
-        "nito.asyncex.tasks.nuspec"
-      ]
-    },
-    "Nito.Cancellation/1.1.0": {
-      "sha512": "BSezc6jsEEAoa8UtVjQ6Qr/D5xX+FozlDKFHAvDeTv24I7ZZmmfbFxEmdjaSLnrboz1WMRjUKCQwZw7Gf4+WcA==",
-      "type": "package",
-      "path": "nito.cancellation/1.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "icon.png",
-        "lib/netstandard1.0/Nito.Cancellation.dll",
-        "lib/netstandard1.0/Nito.Cancellation.xml",
-        "lib/netstandard2.0/Nito.Cancellation.dll",
-        "lib/netstandard2.0/Nito.Cancellation.xml",
-        "nito.cancellation.1.1.0.nupkg.sha512",
-        "nito.cancellation.nuspec"
-      ]
-    },
-    "Nito.Collections.Deque/1.1.0": {
-      "sha512": "RXHe531Oaw2IathDr0Q2kbid0iuudBxtgZsfBZ2eUPuFI8I1P7HMiuUeaIefqYykcDYFTDQsFAPAljduIjihLA==",
-      "type": "package",
-      "path": "nito.collections.deque/1.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "icon.png",
-        "lib/netstandard1.0/Nito.Collections.Deque.dll",
-        "lib/netstandard1.0/Nito.Collections.Deque.xml",
-        "lib/netstandard2.0/Nito.Collections.Deque.dll",
-        "lib/netstandard2.0/Nito.Collections.Deque.xml",
-        "nito.collections.deque.1.1.0.nupkg.sha512",
-        "nito.collections.deque.nuspec"
-      ]
-    },
-    "Nito.Disposables/2.2.0": {
-      "sha512": "QcL+uBwUCEoK8GKp/WzjdCiG8/3G1WLlVNJgLJUNG7bIIVAcEV+Mro4s53VT4Nd8xMSplv0gy+Priw44vRvLaA==",
-      "type": "package",
-      "path": "nito.disposables/2.2.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "icon.png",
-        "lib/net461/Nito.Disposables.dll",
-        "lib/net461/Nito.Disposables.xml",
-        "lib/netstandard1.0/Nito.Disposables.dll",
-        "lib/netstandard1.0/Nito.Disposables.xml",
-        "lib/netstandard2.0/Nito.Disposables.dll",
-        "lib/netstandard2.0/Nito.Disposables.xml",
-        "lib/netstandard2.1/Nito.Disposables.dll",
-        "lib/netstandard2.1/Nito.Disposables.xml",
-        "nito.disposables.2.2.0.nupkg.sha512",
-        "nito.disposables.nuspec"
       ]
     },
     "NJsonSchema/10.2.2": {
@@ -21513,17 +21093,17 @@
         "uipath.activities.runtimegovernance.nuspec"
       ]
     },
-    "UiPath.ConnectionClient/1.4.2-20221020.8": {
-      "sha512": "Pvt5gFZL+gSUne1G60lZAV/tmaZbZtzUtAWum8xO//b5dv6MbaY27yPTCqUFpPgdNd/C7g+CHAM4M8WySOpzjA==",
+    "UiPath.ConnectionClient/1.4.3-20221214.2": {
+      "sha512": "t6RpwpoVXMyVXxqOIubMXd5UQ69OAQFNgrTxX6Nc2j7HItZkBrM2N2da3M1YEtztMB3jDMedl0y2Nm+enkDt5Q==",
       "type": "package",
-      "path": "uipath.connectionclient/1.4.2-20221020.8",
+      "path": "uipath.connectionclient/1.4.3-20221214.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "UI_icon.png",
         "lib/net461/ConnectionClient.dll",
         "lib/net5.0/ConnectionClient.dll",
-        "uipath.connectionclient.1.4.2-20221020.8.nupkg.sha512",
+        "uipath.connectionclient.1.4.3-20221214.2.nupkg.sha512",
         "uipath.connectionclient.nuspec"
       ]
     },
@@ -21679,10 +21259,10 @@
         "uipath.documentunderstanding.digitizer.nuspec"
       ]
     },
-    "UiPath.Excel.Activities/2.20.0-preview": {
-      "sha512": "HggtVBkInEDKGcyENJnohTTO1NjtEJGx9F7khcF4zIyd03Ua70GGT5sPfR9SgOqPRixjo6hf7lHgRLYmNsW89g==",
+    "UiPath.Excel.Activities/2.20.1": {
+      "sha512": "CX+Iq3vez7I4n46+Nbfi7oOdf+aAhxHsbk0K6tp58m645auLoCTpYvcg9F1+QF57zBEb4qrv3wWYYrHuOGMo1g==",
       "type": "package",
-      "path": "uipath.excel.activities/2.20.0-preview",
+      "path": "uipath.excel.activities/2.20.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -21799,7 +21379,7 @@
         "lib/net5.0/zh-CN/UiPath.Excel.resources.dll",
         "lib/net5.0/zh-TW/UiPath.Excel.Activities.resources.dll",
         "lib/net5.0/zh-TW/UiPath.Excel.resources.dll",
-        "uipath.excel.activities.2.20.0-preview.nupkg.sha512",
+        "uipath.excel.activities.2.20.1.nupkg.sha512",
         "uipath.excel.activities.nuspec"
       ]
     },
@@ -21828,10 +21408,10 @@
         "uipath.imageprocessing.nuspec"
       ]
     },
-    "UiPath.Mail.Activities/1.18.2": {
-      "sha512": "3XvSL3Ev6L+ExG1ADYNquaBFTeZ4zVRNqGKDWiunxUkciJ9I0+ZAfEQUdf8p/mgObx5TA+MX1PDnG3fKgdykOQ==",
+    "UiPath.Mail.Activities/1.19.0": {
+      "sha512": "B3pdLVhqS8+xCSlcBCqAIWdHih9Z76s5KJWtAzLHEZmLEPxx+O3kDNu6rB9X5y5a+NJLlP4JdTPvoPQvI1eEcA==",
       "type": "package",
-      "path": "uipath.mail.activities/1.18.2",
+      "path": "uipath.mail.activities/1.19.0",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -21932,14 +21512,8 @@
         "lib/net6.0-windows7.0/zu/UiPath.Mail.Activities.Design.resources.dll",
         "lib/net6.0-windows7.0/zu/UiPath.Mail.Activities.resources.dll",
         "lib/net6.0-windows7.0/zu/UiPath.Mail.resources.dll",
-        "tools/net461/MainSessionServer/Microsoft.Bcl.AsyncInterfaces.dll",
         "tools/net461/MainSessionServer/Microsoft.Extensions.Configuration.Abstractions.dll",
         "tools/net461/MainSessionServer/Microsoft.Extensions.Configuration.Binder.dll",
-        "tools/net461/MainSessionServer/Microsoft.Extensions.Configuration.CommandLine.dll",
-        "tools/net461/MainSessionServer/Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
-        "tools/net461/MainSessionServer/Microsoft.Extensions.Configuration.FileExtensions.dll",
-        "tools/net461/MainSessionServer/Microsoft.Extensions.Configuration.Json.dll",
-        "tools/net461/MainSessionServer/Microsoft.Extensions.Configuration.UserSecrets.dll",
         "tools/net461/MainSessionServer/Microsoft.Extensions.Configuration.dll",
         "tools/net461/MainSessionServer/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "tools/net461/MainSessionServer/Microsoft.Extensions.DependencyInjection.dll",
@@ -21949,13 +21523,7 @@
         "tools/net461/MainSessionServer/Microsoft.Extensions.Hosting.Abstractions.dll",
         "tools/net461/MainSessionServer/Microsoft.Extensions.Hosting.dll",
         "tools/net461/MainSessionServer/Microsoft.Extensions.Logging.Abstractions.dll",
-        "tools/net461/MainSessionServer/Microsoft.Extensions.Logging.Configuration.dll",
-        "tools/net461/MainSessionServer/Microsoft.Extensions.Logging.Console.dll",
-        "tools/net461/MainSessionServer/Microsoft.Extensions.Logging.Debug.dll",
-        "tools/net461/MainSessionServer/Microsoft.Extensions.Logging.EventLog.dll",
-        "tools/net461/MainSessionServer/Microsoft.Extensions.Logging.EventSource.dll",
         "tools/net461/MainSessionServer/Microsoft.Extensions.Logging.dll",
-        "tools/net461/MainSessionServer/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
         "tools/net461/MainSessionServer/Microsoft.Extensions.Options.dll",
         "tools/net461/MainSessionServer/Microsoft.Extensions.Primitives.dll",
         "tools/net461/MainSessionServer/Microsoft.Win32.Primitives.dll",
@@ -21983,7 +21551,6 @@
         "tools/net461/MainSessionServer/System.Data.Common.dll",
         "tools/net461/MainSessionServer/System.Diagnostics.Contracts.dll",
         "tools/net461/MainSessionServer/System.Diagnostics.Debug.dll",
-        "tools/net461/MainSessionServer/System.Diagnostics.DiagnosticSource.dll",
         "tools/net461/MainSessionServer/System.Diagnostics.FileVersionInfo.dll",
         "tools/net461/MainSessionServer/System.Diagnostics.Process.dll",
         "tools/net461/MainSessionServer/System.Diagnostics.StackTrace.dll",
@@ -22057,11 +21624,8 @@
         "tools/net461/MainSessionServer/System.Security.SecureString.dll",
         "tools/net461/MainSessionServer/System.Text.Encoding.Extensions.dll",
         "tools/net461/MainSessionServer/System.Text.Encoding.dll",
-        "tools/net461/MainSessionServer/System.Text.Encodings.Web.dll",
-        "tools/net461/MainSessionServer/System.Text.Json.dll",
         "tools/net461/MainSessionServer/System.Text.RegularExpressions.dll",
         "tools/net461/MainSessionServer/System.Threading.Overlapped.dll",
-        "tools/net461/MainSessionServer/System.Threading.Tasks.Extensions.dll",
         "tools/net461/MainSessionServer/System.Threading.Tasks.Parallel.dll",
         "tools/net461/MainSessionServer/System.Threading.Tasks.dll",
         "tools/net461/MainSessionServer/System.Threading.Thread.dll",
@@ -22081,7 +21645,7 @@
         "tools/net461/MainSessionServer/UiPath.MainSessionServer.Shared.dll",
         "tools/net461/MainSessionServer/UiPath.MainSessionServer.Shared.pdb",
         "tools/net461/MainSessionServer/netstandard.dll",
-        "uipath.mail.activities.1.18.2.nupkg.sha512",
+        "uipath.mail.activities.1.19.0.nupkg.sha512",
         "uipath.mail.activities.nuspec"
       ]
     },
@@ -22756,10 +22320,10 @@
         "uipath.platform.nuspec"
       ]
     },
-    "UiPath.System.Activities/23.4.1-preview": {
-      "sha512": "Vdc2NP1C3zMuosZr59fgo1tVfb8TyYdJwMSNxrP/myT4l3DG0wj+GAZIN/LFmfoKiqDl7KVfq9TWSCrAuOXxsQ==",
+    "UiPath.System.Activities/23.4.2": {
+      "sha512": "turNAz6v/65LMOrNGjleDErDGee3YIg0I3LpAbOGEDM2wnohlomXzOamcBHq/Nk+uuDVObQgtyIX5wnduuZ1HQ==",
       "type": "package",
-      "path": "uipath.system.activities/23.4.1-preview",
+      "path": "uipath.system.activities/23.4.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -22794,14 +22358,14 @@
         "lib/net6.0-windows7.0/zh-TW/UiPath.System.Activities.Design.resources.dll",
         "lib/net6.0-windows7.0/zu/UiPath.System.Activities.Design.resources.dll",
         "lib/net6.0/UiPath.System.Activities.ViewModels.dll",
-        "uipath.system.activities.23.4.1-preview.nupkg.sha512",
+        "uipath.system.activities.23.4.2.nupkg.sha512",
         "uipath.system.activities.nuspec"
       ]
     },
-    "UiPath.System.Runtime.Windows/23.4.1-preview": {
-      "sha512": "0nVnGHe9LDk9I6TXSs0odBg75rRjfYzjXbQ9ndhvsOkYEyV2Yd4BW/FjBnerIAxTlTyBuBwlpq8IYrOArY1geA==",
+    "UiPath.System.Runtime.Windows/23.4.2": {
+      "sha512": "LO1cTngKa81QFb5t8Bgp+7bqZ1/yDKvRKcW3o+NuOp7LrPn+B3aTtZVjF3IMcFeSKWl68aK6tkqXgLmcIfJckg==",
       "type": "package",
-      "path": "uipath.system.runtime.windows/23.4.1-preview",
+      "path": "uipath.system.runtime.windows/23.4.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -22835,7 +22399,7 @@
         "lib/net6.0-windows7.0/zh-CN/UiPath.System.Activities.resources.dll",
         "lib/net6.0-windows7.0/zh-TW/UiPath.System.Activities.resources.dll",
         "lib/net6.0-windows7.0/zu/UiPath.System.Activities.resources.dll",
-        "uipath.system.runtime.windows.23.4.1-preview.nupkg.sha512",
+        "uipath.system.runtime.windows.23.4.2.nupkg.sha512",
         "uipath.system.runtime.windows.nuspec"
       ]
     },
@@ -22853,10 +22417,10 @@
         "uipath.telemetry.client.nuspec"
       ]
     },
-    "UiPath.UIAutomation.Activities/23.4.3": {
-      "sha512": "se0uQVgF/0epKbaPdAQS7e+kXrdJVeP3KcLlxXZRrxAgSnESoxVN5ckb/M6gffDgWslI1JcH9pScfVwiw4YT4Q==",
+    "UiPath.UIAutomation.Activities/23.4.5-beta.3758343": {
+      "sha512": "QLvC+cTBQ4aOKasEL3ejvLXocQ8WNNuPzevb5RXcUFGSDKzDzpmd9hF0yZuyCPLRHnYqPJ/vMUTfQfxQa0Rlyw==",
       "type": "package",
-      "path": "uipath.uiautomation.activities/23.4.3",
+      "path": "uipath.uiautomation.activities/23.4.5-beta.3758343",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -23135,14 +22699,14 @@
         "lib/net6.0-windows7.0/zu/UiPath.UIAutomation.Activities.Design.resources.dll",
         "lib/net6.0-windows7.0/zu/UiPath.Wizards.resources.dll",
         "lib/net6.0/UiPath.UIAutomationNext.Activities.Design.dll",
-        "uipath.uiautomation.activities.23.4.3.nupkg.sha512",
+        "uipath.uiautomation.activities.23.4.5-beta.3758343.nupkg.sha512",
         "uipath.uiautomation.activities.nuspec"
       ]
     },
-    "UiPath.UIAutomation.Activities.Runtime/23.4.3": {
-      "sha512": "KiZTMErg9g0itDo8AXw00rvA47lGP2ewlLsCn9TpFwWm0fSB9RAxLBb/FqJzo66OQa5+qGekegxIfsTe50c7BQ==",
+    "UiPath.UIAutomation.Activities.Runtime/23.4.5-beta.3758343": {
+      "sha512": "13uMn09DT24VWjxkFwaQuz1GvpixMLGPy2DtF31PiFTOiV3RzuRaACFheZTpnuKCnWx+77+sHvfxv94+xt3I6w==",
       "type": "package",
-      "path": "uipath.uiautomation.activities.runtime/23.4.3",
+      "path": "uipath.uiautomation.activities.runtime/23.4.5-beta.3758343",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -23266,7 +22830,7 @@
         "lib/net6.0-windows7.0/zu/UiPath.CV.resources.dll",
         "lib/net6.0-windows7.0/zu/UiPath.UIAutomationNext.resources.dll",
         "lib/net6.0-windows7.0/zu/UiPath.UiAutomation.Activities.resources.dll",
-        "uipath.uiautomation.activities.runtime.23.4.3.nupkg.sha512",
+        "uipath.uiautomation.activities.runtime.23.4.5-beta.3758343.nupkg.sha512",
         "uipath.uiautomation.activities.runtime.nuspec"
       ]
     },
@@ -23509,10 +23073,10 @@
         "uipath.vision.nuspec"
       ]
     },
-    "UiPath.WebAPI.Activities/1.16.1-preview": {
-      "sha512": "4sOMouWybp4x6IXGzK/3Nrx91uDl6XXow0podqjhWZNq8RAhpZm53gT4vMje2AINYC1Di2lXrVQYyMWL71pPrQ==",
+    "UiPath.WebAPI.Activities/1.16.2": {
+      "sha512": "MMofi6+VQYc0fV0oNgjnozgjNDRtgMf1uIrHSR7rDh57n+OxJrVRY7Zr47j8wcpu2k5K++FDwfQRkf5A4p5M7A==",
       "type": "package",
-      "path": "uipath.webapi.activities/1.16.1-preview",
+      "path": "uipath.webapi.activities/1.16.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -23547,14 +23111,14 @@
         "lib/net5.0-windows7.0/zu/UiPath.Web.Activities.Design.resources.dll",
         "lib/net5.0/UiPath.Web.Activities.RulesLibrary.dll",
         "lib/net5.0/UiPath.Web.Activities.ViewModels.dll",
-        "uipath.webapi.activities.1.16.1-preview.nupkg.sha512",
+        "uipath.webapi.activities.1.16.2.nupkg.sha512",
         "uipath.webapi.activities.nuspec"
       ]
     },
-    "UiPath.WebAPI.Runtime/1.16.1-preview": {
-      "sha512": "P5QPnx702NrP8c8pd5DzUacFZJc6APA4u3MtHwzaP3EHSMXk6kAenoWAiOuhjMMh/WFIb5YwOgNW0bC1k0PTOQ==",
+    "UiPath.WebAPI.Runtime/1.16.2": {
+      "sha512": "PceLl3Qr+tpPYQEkFtvyaX9VWHpo50R5/a3MONddQityXNHPJ8Rra0WOBU7fYgVJP1sUq9dWFNiUxrCYdKyO9Q==",
       "type": "package",
-      "path": "uipath.webapi.runtime/1.16.1-preview",
+      "path": "uipath.webapi.runtime/1.16.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -23600,7 +23164,7 @@
         "lib/net5.0/tr/UiPath.Web.Activities.resources.dll",
         "lib/net5.0/zh-CN/UiPath.Web.Activities.resources.dll",
         "lib/net5.0/zu/UiPath.Web.Activities.resources.dll",
-        "uipath.webapi.runtime.1.16.1-preview.nupkg.sha512",
+        "uipath.webapi.runtime.1.16.2.nupkg.sha512",
         "uipath.webapi.runtime.nuspec"
       ]
     },
@@ -23792,19 +23356,18 @@
     "net6.0-windows7.0": [
       "UiPath.Credentials.Activities >= 2.0.0 <= 2.0.0",
       "UiPath.Database.Activities >= 1.7.1 <= 1.7.1",
-      "UiPath.Excel.Activities >= 2.20.0-preview <= 2.20.0-preview",
-      "UiPath.Mail.Activities >= 1.18.2 <= 1.18.2",
+      "UiPath.Excel.Activities >= 2.20.1 <= 2.20.1",
+      "UiPath.Mail.Activities >= 1.19.0 <= 1.19.0",
       "UiPath.MicrosoftOffice365.Activities >= 2.1.1 <= 2.1.1",
       "UiPath.PDF.Activities >= 3.14.0 <= 3.14.0",
-      "UiPath.System.Activities >= 23.4.1-preview <= 23.4.1-preview",
-      "UiPath.UIAutomation.Activities >= 23.4.3 <= 23.4.3",
-      "UiPath.WebAPI.Activities >= 1.16.1-preview <= 1.16.1-preview",
+      "UiPath.System.Activities >= 23.4.2 <= 23.4.2",
+      "UiPath.UIAutomation.Activities >= 23.4.5-beta.3758343 <= 23.4.5-beta.3758343",
+      "UiPath.WebAPI.Activities >= 1.16.2 <= 1.16.2",
       "UiPath.Word.Activities >= 1.16.0 <= 1.16.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
-    "C:\\Users\\User\\AppData\\Local\\UiPath\\NugetFallbackFolder": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
@@ -23812,10 +23375,7 @@
       "projectName": "RPA_GestiondeProyectosdeGrado",
       "projectPath": "C:\\Users\\User\\Documents\\RPA_GestiondeProyectosdeGrado\\RPA_GestiondeProyectosdeGrado\\.local",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Documents\\RPA_GestiondeProyectosdeGrado\\RPA_GestiondeProyectosdeGrado\\.local",
-      "fallbackFolders": [
-        "C:\\Users\\User\\AppData\\Local\\UiPath\\NugetFallbackFolder"
-      ]
+      "outputPath": "C:\\Users\\User\\Documents\\RPA_GestiondeProyectosdeGrado\\RPA_GestiondeProyectosdeGrado\\.local"
     },
     "frameworks": {
       "net6.0-windows7.0": {
@@ -23833,12 +23393,12 @@
           "UiPath.Excel.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[2.20.0-preview, 2.20.0-preview]"
+            "version": "[2.20.1, 2.20.1]"
           },
           "UiPath.Mail.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[1.18.2, 1.18.2]"
+            "version": "[1.19.0, 1.19.0]"
           },
           "UiPath.MicrosoftOffice365.Activities": {
             "include": "Runtime",
@@ -23853,17 +23413,17 @@
           "UiPath.System.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[23.4.1-preview, 23.4.1-preview]"
+            "version": "[23.4.2, 23.4.2]"
           },
           "UiPath.UIAutomation.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[23.4.3, 23.4.3]"
+            "version": "[23.4.5-beta.3758343, 23.4.5-beta.3758343]"
           },
           "UiPath.WebAPI.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[1.16.1-preview, 1.16.1-preview]"
+            "version": "[1.16.2, 1.16.2]"
           },
           "UiPath.Word.Activities": {
             "include": "Runtime",

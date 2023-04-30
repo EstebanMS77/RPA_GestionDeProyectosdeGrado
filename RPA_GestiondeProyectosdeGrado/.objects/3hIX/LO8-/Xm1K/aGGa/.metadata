@@ -1,0 +1,13 @@
+﻿{
+  "Id": "aGGaPL5WOkiKThwr7m-5eQ",
+  "Reference": "9wkVO8yiK0-XuxLQvWc_NA/aGGaPL5WOkiKThwr7m-5eQ",
+  "ParentRef": "9wkVO8yiK0-XuxLQvWc_NA/Xm1K54F1iEysFwx74qlxLQ",
+  "Name": "Text_CorreoelectrónicoEstudiante",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2023-04-23T02:18:38.1541518Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-04-23T02:18:38.1541518Z"
+}
