@@ -1,0 +1,1 @@
+"C:\Users\User\AppData\Local\Programs\UiPath\Studio\UiRobot.exe" -file "C:\Users\User\OneDrive - Universidad Santo Tomás\InfoBot\Deploy\RPA_GestiondeProyectosdeGrado.1.0.13.nupkg"

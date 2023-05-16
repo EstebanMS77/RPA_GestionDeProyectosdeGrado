@@ -4,28 +4,28 @@
 
 	<PathFile>
 		<Name>PathFileMacro</Name>
-		<Value>C:\InfoBot\Core\Macro_BotGestiondeProyectos.xlsm</Value>
+		<Value>C:\Users\User\OneDrive - Universidad Santo Tomás\InfoBot\Core\Macro_BotGestiondeProyectos.xlsm</Value>
 	</PathFile>
 
 	<PathFile>
 		<Name>PathFileAccess</Name>
-		<Value>C:\InfoBot\Insumos\DB_GestiondeProyectosDeGrado.accdb</Value>
+		<Value>C:\Users\User\OneDrive - Universidad Santo Tomás\InfoBot\Insumos\DB_GestiondeProyectosDeGrado.accdb</Value>
 	</PathFile>
 
 	<PathFile>
 		<Name>PathFileEmailDefault</Name>
-		<Value>C:\InfoBot\Data\Permanet\Email\PlantillaEmail_Default.docx</Value>
+		<Value>C:\Users\User\OneDrive - Universidad Santo Tomás\InfoBot\Data\Permanet\Email\PlantillaEmail_Default.docx</Value>
 	</PathFile>
 
 
 	<PathFile>
 		<Name>PathFileActaDefault</Name>
-		<Value>C:\InfoBot\Insumos\Acta YYYYMMDD.docx</Value>
+		<Value>C:\Users\User\OneDrive - Universidad Santo Tomás\InfoBot\Insumos\Acta YYYYMMDD.docx</Value>
 	</PathFile>
 
 	<PathFile>
 		<Name>PathFolderTemp</Name>
-		<Value>C:\InfoBot\Data\Temp\</Value>
+		<Value>C:\Users\User\OneDrive - Universidad Santo Tomás\InfoBot\Data\Temp\</Value>
 	</PathFile>
 
 	<PathFile>
@@ -37,6 +37,11 @@
 	<PathFile>
 		<Name>PathFileEmailAsisgnacionJurados</Name>
 		<Value>C:\Users\User\OneDrive - Universidad Santo Tomás\Consolidado_ActaGestionDeProyectosDeGrado\PlantillaEmail\PlantillaEmail_AsignacionJurados.docx</Value>
+	</PathFile>
+
+	<PathFile>
+		<Name>PathFileEmailAsisgnacionRevisores</Name>
+		<Value>C:\Users\User\OneDrive - Universidad Santo Tomás\Consolidado_ActaGestionDeProyectosDeGrado\PlantillaEmail\PlantillaEmail_AsignacionRevisores.docx</Value>
 	</PathFile>
 
 	<Parametro>
@@ -81,18 +86,18 @@
 
 	<SQL>
 		<Name>SQLReturnData</Name>
-		<Value>SELECT [ID],[Tipo de Solicitud],[Nombre Proyecto],[Estudiante 1],[Estudiante 2],[Jurado 1],[Jurado 2],[Estado solicitud],[Director],[Correo Director],[Co-Director 1],[Co-Director 2],[Co-Director 3],[Porcentaje Turnitin] FROM [GESTIÓN DE PROYECTOS DE GRADO] WHERE NOT [Estado solicitud] = 'Rechazado'</Value>
+		<Value>SELECT [ID],[Tipo de Solicitud],[Nombre Proyecto],[Estudiante 1],[Estudiante 2],[Jurado 1],[Jurado 2],[Estado solicitud],[Director],[Correo Director],[Co-Director 1],[Co-Director 2],[Co-Director 3],[Porcentaje Turnitin],[Fecha Limite (Autores)],[Fecha Limite (Sustentación)],[Fecha Limite],[Correo Estudiante 1],[Correo Estudiante 2] FROM [GESTIÓN DE PROYECTOS DE GRADO] WHERE NOT [Estado solicitud] = 'Rechazado'</Value>
    	</SQL>
 
 	<SQL>
 		<Name>SQLUpdateEstadoSolicitud</Name>
-		<Value>UPDATE [GESTIÓN DE PROYECTOS DE GRADO] SET [GESTIÓN DE PROYECTOS DE GRADO].[Estado solicitud] = '{NuevoEstado}' WHERE [GESTIÓN DE PROYECTOS DE GRADO].[ID] = {ID}</Value>
+		<Value>UPDATE [GESTIÓN DE PROYECTOS DE GRADO] SET [GESTIÓN DE PROYECTOS DE GRADO].[Estado solicitud] = '{NuevoEstado}',[GESTIÓN DE PROYECTOS DE GRADO].[Correo Estudiante 1] = '{CorreoEstudiante1}',[GESTIÓN DE PROYECTOS DE GRADO].[Correo Estudiante 2] = '{CorreoEstudiante2}',[GESTIÓN DE PROYECTOS DE GRADO].[Respuesta] = '{Respuesta}',[GESTIÓN DE PROYECTOS DE GRADO].[Error] = '{Error}' WHERE [GESTIÓN DE PROYECTOS DE GRADO].[ID] = {ID}</Value>
    	</SQL>
 	
 	<EmailConfig>
 		<Name>CorreoNotificacion</Name>
 		<To>estebanmurcia@usantotomas.edu.co</To>
-		<Subject>BOT Gestion de Proyectos de Grado | Inicio su ejecución</Subject>
+		<Subject>BOT Gestion de Proyectos de Grado | {Estado} su ejecución</Subject>
 		<Body>Se informa que el bot Inicio su ejecucion a las {Hora}</Body>
    	</EmailConfig>
 
